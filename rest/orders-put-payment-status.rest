@@ -1,0 +1,13 @@
+PUT http://localhost:8081/orders/1/payment/status
+Content-Type: application/json
+
+"CONFIRMED"
+
+###
+
+PUT http://localhost:8081/orders/2/payment/status
+Content-Type: application/json
+
+"REJECTED"
+
+###

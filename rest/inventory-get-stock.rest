@@ -1,0 +1,11 @@
+GET http://localhost:8082/inventory/101/stock
+
+###
+
+GET http://localhost:8082/inventory/102/stock
+
+###
+
+GET http://localhost:8082/inventory/103/stock
+
+###

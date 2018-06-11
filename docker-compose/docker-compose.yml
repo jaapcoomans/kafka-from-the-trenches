@@ -25,7 +25,7 @@ services:
     ports:
       - "8081:8080"
   inventory:
-    build: ../inventory-service
+    build: ../inventory-service-spring
     depends_on:
       - kafka-broker
     ports:
